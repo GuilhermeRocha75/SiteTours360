@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Tours Virtuais 360 | Duga Rocha</title>
+
+  <meta name="description" content="Tours Virtuais 360 para hospedagens, restaurantes, clínicas, imóveis, comércios e experiências turísticas. Mostre seu espaço de forma interativa e profissional.">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f7f7;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    header {
+      background: #111;
+      color: #fff;
+      padding: 18px 0;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: #f4b000;
+    }
+
+    nav {
+      display: flex;
+      gap: 24px;
+      font-size: 15px;
+    }
+
+    nav a {
+      color: #fff;
+      opacity: 0.9;
+    }
+
+    nav a:hover {
+      color: #f4b000;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.68), rgba(0,0,0,0.68)),
+      url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80");
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 120px 0;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 760px;
+      margin: 0 auto 32px;
+      color: #eee;
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #f4b000;
+      color: #111;
+      padding: 14px 26px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #d99b00;
+      transform: translateY(-2px);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: #fff;
+      border: 2px solid #fff;
+    }
+
+    .btn-outline:hover {
+      background: #fff;
+      color: #111;
+    }
+
+    section {
+      padding: 80px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 18px;
+      font-size: 36px;
+      color: #111;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto 48px;
+      color: #555;
+      font-size: 18px;
+    }
+
+    .about-box {
+      background: #fff;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 28px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    }
+
+    .card h3 {
+      margin-bottom: 12px;
+      color: #111;
+      font-size: 22px;
+    }
+
+    .card p {
+      color: #555;
+    }
+
+    .projects {
+      background: #fff;
+    }
+
+    .project-card {
+      background: #f7f7f7;
+      border-radius: 18px;
+      overflow: hidden;
+      margin-bottom: 42px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    }
+
+    .project-info {
+      padding: 28px;
+    }
+
+    .project-info h3 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .project-info p {
+      color: #555;
+      margin-bottom: 8px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+      display: block;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 22px;
+    }
+
+    .step {
+      background: #fff;
+      padding: 28px;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    }
+
+    .step-number {
+      width: 46px;
+      height: 46px;
+      background: #f4b000;
+      color: #111;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 18px;
+      border-radius: 50%;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .target-list {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      text-align: center;
+    }
+
+    .target-item {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      font-weight: bold;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+    }
+
+    .cta {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 90px 0;
+    }
+
+    .cta h2 {
+      font-size: 38px;
+      margin-bottom: 18px;
+    }
+
+    .cta p {
+      max-width: 700px;
+      margin: 0 auto 30px;
+      font-size: 18px;
+      color: #ddd;
+    }
+
+    footer {
+      background: #070707;
+      color: #fff;
+      padding: 36px 0;
+      text-align: center;
+    }
+
+    footer p {
+      color: #ccc;
+      margin-bottom: 6px;
+    }
+
+    footer a {
+      color: #f4b000;
+    }
+
+    @media (max-width: 900px) {
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      nav {
+        display: none;
+      }
+
+      .cards,
+      .steps,
+      .target-list {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      iframe {
+        height: 420px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        padding: 90px 0;
+      }
+
+      .hero h1 {
+        font-size: 31px;
+      }
+
+      .hero p {
+        font-size: 17px;
+      }
+
+      .section-title {
+        font-size: 28px;
+      }
+
+      .cards,
+      .steps,
+      .target-list {
+        grid-template-columns: 1fr;
+      }
+
+      iframe {
+        height: 360px;
+      }
+
+      .about-box {
+        padding: 26px;
+      }
+
+      .cta h2 {
+        font-size: 30px;
+      }
+
+      .project-info h3 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="container header-content">
+      <div class="logo">Duga Rocha <span>360°</span></div>
+
+      <nav>
+        <a href="#inicio">Início</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#orcamento">Orçamento</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="inicio">
+      <div class="container">
+        <h1>Mostre seu espaço em 360° e encante clientes antes da primeira visita.</h1>
+
+        <p>
+          Tours Virtuais 360 para hospedagens, restaurantes, clínicas, imóveis,
+          espaços comerciais e experiências turísticas.
+        </p>
+
+        <div class="btn-group">
+          <a href="#projetos" class="btn">Ver projetos</a>
+
+          <a href="https://wa.me/5551999999999?text=Olá,%20quero%20saber%20mais%20sobre%20Tour%20Virtual%20360" class="btn btn-outline" target="_blank">
+            Solicitar orçamento
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <div class="container">
+        <h2 class="section-title">O que é um Tour Virtual 360?</h2>
+
+        <p class="section-subtitle">
+          Uma experiência imersiva que permite ao cliente conhecer seu ambiente
+          de forma interativa, realista e profissional.
+        </p>
+
+        <div class="about-box">
+          <p>
+            Com o Tour Virtual 360, seu cliente pode navegar pelo seu espaço pelo celular,
+            computador ou tablet. É uma forma moderna de apresentar ambientes,
+            valorizar detalhes e gerar mais confiança antes da visita presencial.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projetos">
+      <div class="container">
+        <h2 class="section-title">Projetos em destaque</h2>
+
+        <p class="section-subtitle">
+          Conheça alguns Tours Virtuais 360 desenvolvidos para apresentar espaços de maneira
+          interativa, profissional e imersiva.
+        </p>
+
+        <div class="project-card">
+          <iframe 
+            src="https://www.housetourclub.com.br/?embed_page=6740"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            title="Monte das Figueiras">
+          </iframe>
+
+          <div class="project-info">
+            <h3>Monte das Figueiras</h3>
+            <p>📍 Localização: informe aqui a cidade/RS</p>
+            <p>🏢 Segmento: turismo, hospedagem ou experiência</p>
+            <p>🎯 Objetivo: apresentar ambientes e valorizar a experiência do local.</p>
+            <br>
+            <a href="https://wa.me/5551999999999?text=Olá,%20quero%20um%20Tour%20360%20como%20o%20Monte%20das%20Figueiras" class="btn" target="_blank">
+              Quero um tour como esse
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <iframe 
+            src="https://www.housetourclub.com.br/?embed_page=7143"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            title="Posto Brazuca">
+          </iframe>
+
+          <div class="project-info">
+            <h3>Posto Brazuca</h3>
+            <p>📍 Localização: informe aqui a cidade/RS</p>
+            <p>🏢 Segmento: posto de combustível / comércio</p>
+            <p>🎯 Objetivo: apresentar a estrutura do espaço de forma moderna e interativa.</p>
+            <br>
+            <a href="https://wa.me/5551999999999?text=Olá,%20quero%20um%20Tour%20360%20como%20o%20Posto%20Brazuca" class="btn" target="_blank">
+              Quero um tour como esse
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <iframe 
+            src="https://www.housetourclub.com.br/?embed_page=6962"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            title="LypeDepyl">
+          </iframe>
+
+          <div class="project-info">
+            <h3>LypeDepyl</h3>
+            <p>📍 Localização: informe aqui a cidade/RS</p>
+            <p>🏢 Segmento: estética / clínica / atendimento especializado</p>
+            <p>🎯 Objetivo: mostrar o ambiente, transmitir confiança e valorizar a experiência do cliente.</p>
+            <br>
+            <a href="https://wa.me/5551999999999?text=Olá,%20quero%20um%20Tour%20360%20como%20o%20LypeDepyl" class="btn" target="_blank">
+              Quero um tour como esse
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <iframe 
+            src="https://www.housetourclub.com.br/?embed_page=6851"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            title="Refúgio Caracol - Chalé Alpino 7">
+          </iframe>
+
+          <div class="project-info">
+            <h3>Refúgio Caracol - Chalé Alpino 7</h3>
+            <p>📍 Localização: Canela/RS</p>
+            <p>🏕️ Segmento: hospedagem / chalé / turismo</p>
+            <p>🎯 Objetivo: apresentar a hospedagem de forma imersiva, destacando estrutura, conforto e experiência.</p>
+            <br>
+            <a href="https://wa.me/5551999999999?text=Olá,%20quero%20um%20Tour%20360%20como%20o%20Refúgio%20Caracol" class="btn" target="_blank">
+              Quero um tour como esse
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <iframe 
+            src="https://www.housetourclub.com.br/?embed_page=6638"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            title="Casa Merlot - Stone Hall">
+          </iframe>
+
+          <div class="project-info">
+            <h3>Casa Merlot - Stone Hall</h3>
+            <p>📍 Localização: Farroupilha/RS</p>
+            <p>🏕️ Segmento: hospedagem / experiência / turismo</p>
+            <p>🎯 Objetivo: valorizar os ambientes e permitir que o cliente conheça o espaço antes da reserva.</p>
+            <br>
+            <a href="https://wa.me/5551999999999?text=Olá,%20quero%20um%20Tour%20360%20como%20a%20Casa%20Merlot%20-%20Stone%20Hall" class="btn" target="_blank">
+              Quero um tour como esse
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="beneficios">
+      <div class="container">
+        <h2 class="section-title">Benefícios para seu negócio</h2>
+
+        <p class="section-subtitle">
+          Um Tour Virtual 360 ajuda o cliente a conhecer melhor seu espaço,
+          aumenta a confiança e valoriza sua apresentação digital.
+        </p>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Mais confiança</h3>
+            <p>
+              O cliente consegue visualizar o ambiente antes de ir até o local,
+              reduzindo dúvidas e aumentando a segurança na decisão.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Experiência interativa</h3>
+            <p>
+              Diferente de fotos comuns, o tour permite navegar pelo espaço
+              de forma livre e imersiva.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Diferencial profissional</h3>
+            <p>
+              Seu negócio se apresenta com mais autoridade, modernidade e qualidade visual.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Uso em vários canais</h3>
+            <p>
+              O link pode ser enviado pelo WhatsApp, colocado no site,
+              usado em propostas comerciais e divulgado nas redes sociais.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Valoriza ambientes</h3>
+            <p>
+              Ideal para mostrar estrutura, decoração, quartos, salões,
+              recepção, áreas externas e detalhes importantes.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Ajuda na conversão</h3>
+            <p>
+              Quanto melhor o cliente entende seu espaço, maior a chance de entrar em contato,
+              reservar ou comprar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="como-funciona">
+      <div class="container">
+        <h2 class="section-title">Como funciona</h2>
+
+        <p class="section-subtitle">
+          O processo é simples, profissional e pensado para entregar uma experiência pronta
+          para divulgação.
+        </p>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Captação</h3>
+            <p>Registro das imagens 360 nos principais ambientes do local.</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Montagem</h3>
+            <p>Organização dos pontos e criação da navegação interativa.</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Entrega</h3>
+            <p>Entrega do link do tour e código para incorporar no site.</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">4</div>
+            <h3>Divulgação</h3>
+            <p>O tour pode ser usado no WhatsApp, site, redes sociais e propostas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="indicado">
+      <div class="container">
+        <h2 class="section-title">Para quem é indicado?</h2>
+
+        <p class="section-subtitle">
+          O Tour Virtual 360 é ideal para negócios que querem apresentar melhor seus espaços.
+        </p>
+
+        <div class="target-list">
+          <div class="target-item">🏕️ Hospedagens</div>
+          <div class="target-item">🍽️ Restaurantes</div>
+          <div class="target-item">🏡 Imóveis</div>
+          <div class="target-item">🏥 Clínicas</div>
+          <div class="target-item">🎉 Espaços de eventos</div>
+          <div class="target-item">🏪 Lojas físicas</div>
+          <div class="target-item">🌿 Turismo</div>
+          <div class="target-item">⛽ Postos e comércios</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="orcamento">
+      <div class="container">
+        <h2>Quer criar um Tour Virtual 360 para seu espaço?</h2>
+
+        <p>
+          Apresente seu negócio de forma moderna, interativa e profissional.
+          Seu cliente pode conhecer cada ambiente antes mesmo de chegar até você.
+        </p>
+
+        <a href="https://wa.me/5551992413955?text=Olá,%20tenho%20interesse%20em%20criar%20um%20Tour%20Virtual%20360" class="btn" target="_blank">
+          Solicitar orçamento pelo WhatsApp
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p><strong>Duga Rocha 360°</strong></p>
+      <p>Turismo • Hospedagens • Experiências • Tours Virtuais 360</p>
+      <p>Instagram: <a href="https://www.instagram.com/dugarocha" target="_blank">@dugarocha</a></p>
+      <p>E-mail: <a href="mailto:dugarocha@gmail.com">dugarocha@gmail.com</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
