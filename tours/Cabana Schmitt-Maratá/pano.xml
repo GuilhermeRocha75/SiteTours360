@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="22530" appversion="8.0.1" hassounds="0" start="node1">
+  <panorama id="node1">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-06-30T12:33:29" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node1" source="" tags="CabanaSchmitt-Marat" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="-0.340026" projection="4" tilt="6.82115"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="1.51" skinid="ht_node" target="" tilt="-4.89" title="" url="{node2}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-06-30T12:33:31" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node2" source="" tags="CabanaSchmitt-Marat" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="7.41146" projection="4" tilt="9.30349"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="178.64" skinid="ht_node" target="-158.5/-2.3/100.0" tilt="-9.07" title="" url="{node1}"/>
+      <hotspot description="" id="Point02" pan="-46.49" skinid="ht_node" target="-176.0/-6.1/117.0" tilt="-2.23" title="" url="{node3}"/>
+      <hotspot description="" id="Point03" pan="41.65" skinid="ht_node" target="-2.4/3.2/144.5" tilt="-5.97" title="" url="{node4}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-06-30T12:33:31" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node3" source="" tags="CabanaSchmitt-Marat" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-23.17" skinid="ht_node" target="" tilt="-12.75" title="" url="{node2}"/>
+      <hotspot description="" id="Point02" pan="16.68" skinid="ht_node" target="" tilt="-6.91" title="" url="{node1}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node4">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-06-30T12:33:29" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node4" source="" tags="CabanaSchmitt-Marat" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="126.032" pan="-3.04739" projection="4" tilt="5.34045"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-82.62" skinid="ht_node" target="" tilt="-18.42" title="" url="{node2}"/>
+      <hotspot description="" id="Point02" pan="-114.59" skinid="ht_node" target="" tilt="-7.3" title="" url="{node1}"/>
+      <hotspot description="" id="Point03" pan="175.05" skinid="ht_node" target="" tilt="-18.33" title="" url="{node5}"/>
+      <hotspot description="" id="Point04" pan="82.54" skinid="ht_node" target="5.5/-1.3/100.0" tilt="-11.47" title="" url="{node9}"/>
+      <hotspot description="" id="Point05" pan="-5.89" skinid="ht_node" target="122.6/-12.7/100.0" tilt="-7.84" title="" url="{node10}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node5">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-06-30T12:33:30" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node5" source="" tags="CabanaSchmitt-Marat" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="97.2471" projection="4" tilt="8.76472"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="97.32" skinid="ht_node" target="-2.1/4.5/136.9" tilt="9.22" title="" url="{node4}"/>
+      <hotspot description="" id="Point02" pan="-175.96" skinid="ht_node" target="" tilt="-1.86" title="" url="{node6}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node6">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-06-30T12:33:31" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node6" source="" tags="CabanaSchmitt-Marat" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="126.58" pan="-41.4118" projection="4" tilt="-3.93225"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="64.05" skinid="ht_node" target="" tilt="-2.21" title="" url="{node5}"/>
+      <hotspot description="" id="Point02" pan="-96.67" skinid="ht_node" target="161.2/-10.5/100.0" tilt="-10.25" title="" url="{node7}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node7">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-06-30T12:33:30" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node7" source="" tags="CabanaSchmitt-Marat" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-7.46" skinid="ht_node" target="" tilt="6.73" title="" url="{node6}"/>
+      <hotspot description="" id="Point02" pan="160.1" skinid="ht_node" target="" tilt="-9.15" title="" url="{node8}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node8">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-06-30T12:33:29" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node8" source="" tags="CabanaSchmitt-Marat" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-14.32" skinid="ht_node" target="0.0/0.0/100.0" tilt="7.26" title="" url="{node7}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node9">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-06-30T12:33:31" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node9" source="" tags="CabanaSchmitt-Marat" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="12.33" skinid="ht_node" target="-2.0/1.6/144.5" tilt="-10.16" title="" url="{node4}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node10">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="127.00" author="" capturedatetime="2026-06-30T12:33:31" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-29.52271000" longitude="-51.54205700" nodeid="node10" source="" tags="CabanaSchmitt-Marat" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="147.8" skinid="ht_node" target="45.1/-5.1/108.2" tilt="-28.37" title="" url="{node11}"/>
+      <hotspot description="" id="Point02" pan="100.85" skinid="ht_node" target="41.7/-21.6/100.0" tilt="-25.44" title="" url="{node12}"/>
+      <hotspot description="" id="Point03" pan="-103.98" skinid="ht_node" target="177.0/-14.3/126.0" tilt="-17.76" title="" url="{node4}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node11">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="127.00" author="" capturedatetime="2026-06-30T12:33:30" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-29.52267032" longitude="-51.54200872" nodeid="node11" source="" tags="CabanaSchmitt-Marat" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" distance="6.42574" id="Point01" pan="-62.71" skinid="ht_node" target="" tilt="-16.71" title="" url="{node12}"/>
+      <hotspot description="" distance="6.42574" id="Point02" pan="-119.02" skinid="ht_node" target="" tilt="-17.31" title="" url="{node12}"/>
+      <hotspot description="" id="Point03" pan="-155.33" skinid="ht_node" target="-142.9/-7.2/126.0" tilt="-2.07" title="" url="{node4}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node12">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="127.00" author="" capturedatetime="2026-06-30T12:33:30" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-29.52271000" longitude="-51.54205700" nodeid="node12" source="" tags="CabanaSchmitt-Marat" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="32.3632" projection="4" tilt="-22.9363"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-77.57" skinid="ht_node" target="" tilt="-17.42" title="" url="{node14}"/>
+      <hotspot description="" id="Point02" pan="-149.57" skinid="ht_node" target="" tilt="29.64" title="" url="{node20}"/>
+      <hotspot description="" id="Point03" pan="59.8" skinid="ht_node" target="-37.8/-46.2/100.0" tilt="-26.49" title="" url="{node10}"/>
+      <hotspot description="" distance="6.42574" id="Point04" pan="-3.23" skinid="ht_node" target="47.8/-9.3/108.2" tilt="-37.76" title="" url="{node11}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node14">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="127.00" author="" capturedatetime="2026-06-30T12:33:29" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-29.52271000" longitude="-51.54205700" nodeid="node14" source="" tags="CabanaSchmitt-Marat" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="-4.14007" projection="4" tilt="-14.8288"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="134.01" skinid="ht_node" target="93.1/-12.5/100.0" tilt="-15.96" title="" url="{node12}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node18">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="127.00" author="" capturedatetime="2026-06-30T12:33:32" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-29.52271000" longitude="-51.54205700" nodeid="node18" source="" tags="CabanaSchmitt-Marat" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="127.339" projection="4" tilt="-36.4874"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="121.91" skinid="ht_node" target="-133.4/-41.1/100.0" tilt="-27.23" title="" url="{node20}"/>
+      <hotspot description="" id="Point02" pan="-120.55" skinid="ht_node" target="" tilt="-40.31" title="" url="{node19}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node19">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="127.00" author="" capturedatetime="2026-06-30T12:33:31" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-29.52271000" longitude="-51.54205700" nodeid="node19" source="" tags="CabanaSchmitt-Marat" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="145.7" pan="-23.6623" projection="4" tilt="-1.59187"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-58.56" skinid="ht_node" target="" tilt="-18.21" title="" url="{node18}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node20">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="127.00" author="" capturedatetime="2026-06-30T12:33:29" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-29.52271000" longitude="-51.54205700" nodeid="node20" source="" tags="CabanaSchmitt-Marat" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="50.1238" projection="4" tilt="-11.4014"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="165.25" skinid="ht_node" target="$fwd" tilt="-27.65" title="" url="{node12}"/>
+      <hotspot description="" id="Point02" pan="77.35" skinid="ht_node" target="121.0/-38.4/100.0" tilt="-6.14" title="" url="{node18}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <masternode>
+    <userdata author="" comment="" copyright="" description="" tags="" title="" uuid="{831b1ac6-4f88-4b69-bf82-9ef5f2b30f3d}"/>
+    <transition blendcolor="0x000000" blendtime="1" delay="none" enabled="1" softedge="0" type="crossdissolve" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" zoomin="0" zoomout="0" zoomoutpause="1" zoomspeed="2"/>
+    <control contextfullscreen="1" contextprojections="0" contextvr="1" dblclickfullscreen="0" hideabout="0" invertcontrol="1" invertwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" rubberband="0" sensitivity="8" simulatemass="1" speedwheel="1" zoomcentercursor="1"/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+    <hotspots smoothmovement="0">
+      <label background="1" backgroundalpha="1" backgroundcolor="0xffffff" border="1" borderalpha="1" bordercolor="0x000000" borderradius="1" enabled="1" height="20" textalpha="1" textcolor="0x000000" width="180" wordwrap="1"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0"/>
+    </hotspots>
+  </masternode>
+</tour>
