@@ -187,6 +187,7 @@
       <hotspot description="" id="Point02" pan="90.05" skinid="ht_node" target="" tilt="3.52" title="" url="{node13}"/>
       <hotspot description="" id="Point03" pan="-69.49" skinid="ht_node" target="" tilt="-2.18" title="" url="{node15}"/>
       <hotspot description="" id="Point04" pan="165.69" skinid="ht_node" target="" tilt="6.53" title="" url="{node14}"/>
+      <hotspot customimage="media/silhouette-quad-drone-flight-vector-600nw-2524606343-removebg-preview-1.png" customimageheight="75" customimagewidth="113" description="" distance3D="645.798" fov="10" id="Point05" pan="171.5" skinid="ht_node" target="" tilt="59.44" title="" url="{node16}" use3D="0"/>
     </hotspots>
     <media/>
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
@@ -208,6 +209,7 @@
     <hotspots>
       <hotspot description="" id="Point01" pan="-56.26" skinid="ht_node" target="" tilt="-11.46" title="" url="{node12}"/>
       <hotspot description="" id="Point02" pan="-126.69" skinid="ht_node" target="" tilt="3.17" title="" url="{node14}"/>
+      <hotspot customimage="media/silhouette-quad-drone-flight-vector-600nw-2524606343-removebg-preview-1.png" customimageheight="70" customimagewidth="106" description="" distance3D="605.793" fov="10" id="Point03" pan="-101.17" skinid="ht_node" target="" tilt="36.64" title="" url="{node16}" use3D="0"/>
     </hotspots>
     <media/>
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
@@ -229,6 +231,7 @@
     <hotspots>
       <hotspot description="" id="Point01" pan="-44.12" skinid="ht_node" target="" tilt="-10.51" title="" url="{node12}"/>
       <hotspot description="" id="Point02" pan="-4.3" skinid="ht_node" target="" tilt="-5.55" title="" url="{node13}"/>
+      <hotspot customimage="media/silhouette-quad-drone-flight-vector-600nw-2524606343-removebg-preview-1.png" customimageheight="88" customimagewidth="132" description="" distance3D="754.383" fov="10" id="Point03" pan="-44.52" skinid="ht_node" target="" tilt="80.61" title="" url="{node16}" use3D="0"/>
     </hotspots>
     <media/>
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
@@ -253,8 +256,26 @@
     <media/>
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
   </panorama>
+  <panorama id="node16">
+    <input height="400" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="400">
+      <level height="400" predecode="1" preload="1" width="400"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-01T18:52:31" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node16" source="" tags="Pano2VR8" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="1.54754" projection="4" tilt="-20.2683"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="2.55" skinid="ht_node" target="" tilt="-43.83" title="" url="{node12}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
   <masternode>
-    <userdata author="" comment="" copyright="" description="" tags="" title="" uuid="{730374d8-7b2a-475e-bc7f-dc0b191814d8}"/>
+    <userdata author="" comment="" copyright="" description="" tags="" title="" uuid="{c904dd7d-85dc-45a9-90ae-a636684281fb}"/>
     <transition blendcolor="0x000000" blendtime="1" delay="none" enabled="1" softedge="0" type="crossdissolve" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" zoomin="0" zoomout="0" zoomoutpause="1" zoomspeed="2"/>
     <control contextfullscreen="1" contextprojections="0" contextvr="1" dblclickfullscreen="0" hideabout="0" invertcontrol="1" invertwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" rubberband="0" sensitivity="8" simulatemass="1" speedwheel="1" zoomcentercursor="1"/>
     <animationsequences>
