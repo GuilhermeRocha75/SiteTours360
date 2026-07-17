@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="22530" appversion="8.0.1" hassounds="0" start="node4">
+  <panorama id="node1">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:58" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node1" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="136.926" pan="-5.52964" projection="4" tilt="3.55842"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="9.81" skinid="ht_node" target="" tilt="-11.63" title="" url="{node2}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:58" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node2" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="47.6267" projection="4" tilt="-4.6804"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-171.34" skinid="ht_node" target="" tilt="1.87" title="" url="{node1}"/>
+      <hotspot description="" id="Point02" pan="49.06" skinid="ht_node" target="" tilt="-1.34" title="" url="{node3}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:57" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node3" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="177.7" skinid="ht_node" target="-166.2/-4.7/100.0" tilt="2.24" title="" url="{node2}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node4">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:59" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node4" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="0.67" skinid="ht_node" target="" tilt="-1.05" title="" url="{node5}"/>
+      <hotspot description="" id="Point02" pan="-47.32" skinid="ht_node" target="" tilt="-10.56" title="" url="{node29}"/>
+      <hotspot description="" id="Point03" pan="170.53" skinid="ht_node" target="175.8/-4.5/100.0" tilt="-0.02" title="" url="{node3}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node5">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:13:00" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node5" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="148.485" pan="15.7639" projection="4" tilt="0.052247"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="7.61" skinid="ht_node" target="" tilt="-5.39" title="" url="{node6}"/>
+      <hotspot description="" id="Point02" pan="-126.57" skinid="ht_node" target="-175.9/1.0/100.0" tilt="0.32" title="" url="{node3}"/>
+      <hotspot description="" id="Point03" pan="104.69" skinid="ht_node" target="-14.6/-4.5/126.6" tilt="-4.59" title="" url="{node19}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node6">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:56" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node6" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="126.58" pan="17.9617" projection="4" tilt="-5.38284"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="47.07" skinid="ht_node" target="" tilt="-5.4" title="" url="{node27}"/>
+      <hotspot description="" id="Point02" pan="92.43" skinid="ht_node" target="" tilt="-5.57" title="" url="{node11}"/>
+      <hotspot description="" id="Point03" pan="0.769989" skinid="ht_node" target="" tilt="-6.03" title="" url="{node7}"/>
+      <hotspot description="" id="Point04" pan="-52.43" skinid="ht_node" target="" tilt="-23.25" title="" url="{node21}"/>
+      <hotspot description="" id="Point05" pan="-176.93" skinid="ht_node" target="-162.7/-2.7/141.8" tilt="-6.29" title="" url="{node5}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node7">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:56" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node7" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="126.58" pan="-11.126" projection="4" tilt="-28.4098"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-179.27" skinid="ht_node" target="" tilt="-29.51" title="" url="{node10}"/>
+      <hotspot description="" id="Point02" pan="108.32" skinid="ht_node" target="" tilt="-12.01" title="" url="{node9}"/>
+      <hotspot description="" id="Point03" pan="-140.67" skinid="ht_node" target="" tilt="-6.52" title="" url="{node27}"/>
+      <hotspot description="" id="Point04" pan="-92.06" skinid="ht_node" target="" tilt="-7.91" title="" url="{node6}"/>
+      <hotspot description="" id="Point05" pan="-40.66" skinid="ht_node" target="" tilt="-22.19" title="" url="{node21}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node9">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:55" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node9" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="126.58" pan="-0.0390033" projection="4" tilt="1.5081"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="175.48" skinid="ht_node" target="" tilt="-5.28" title="" url="{node10}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node10">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:58" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node10" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="136.926" pan="-71.946" projection="4" tilt="-6.36239"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-4.75" skinid="ht_node" target="" tilt="-8.88" title="" url="{node7}"/>
+      <hotspot description="" id="Point02" pan="-83.47" skinid="ht_node" target="" tilt="-4.31" title="" url="{node6}"/>
+      <hotspot description="" id="Point03" pan="65.12" skinid="ht_node" target="" tilt="-4.93" title="" url="{node9}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node11">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:58" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node11" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="117.015" pan="92.3394" projection="4" tilt="-2.62795"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="178.63" skinid="ht_node" target="" tilt="-9.64" title="" url="{node6}"/>
+      <hotspot description="" id="Point02" pan="-100.46" skinid="ht_node" target="" tilt="-6.6" title="" url="{node10}"/>
+      <hotspot description="" id="Point03" pan="-126.92" skinid="ht_node" target="" tilt="-7.99" title="" url="{node7}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node12">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:55" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node12" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="117.015" pan="-175.796" projection="4" tilt="0.359133"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-174.62" skinid="ht_node" target="" tilt="-3.17" title="" url="{node27}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node13">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:55" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node13" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="126.58" pan="-112.48" projection="4" tilt="-6.25032"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="151.02" skinid="ht_node" target="" tilt="-49.89" title="" url="{node16}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node16">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:55" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node16" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="126.58" pan="72.4757" projection="4" tilt="1.85081"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-170.72" skinid="ht_node" target="-88.0/-0.9/136.9" tilt="-11.03" title="" url="{node27}"/>
+      <hotspot description="" id="Point02" pan="84.52" skinid="ht_node" target="" tilt="7.38" title="" url="{node13}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node19">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:59" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node19" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-83.69" skinid="ht_node" target="" tilt="-3.13" title="" url="{node5}"/>
+      <hotspot description="" id="Point02" pan="19.78" skinid="ht_node" target="" tilt="-5.55" title="" url="{node20}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node20">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:56" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node20" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="136.926" pan="-175.433" projection="4" tilt="-2.3111"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="17.68" skinid="ht_node" target="-92.0/4.2/100.0" tilt="-7.8" title="" url="{node19}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node21">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:59" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node21" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="117.015" pan="172.7" projection="4" tilt="32.6077"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="172.52" skinid="ht_node" target="" tilt="45.36" title="" url="{node22}"/>
+      <hotspot description="" id="Point02" pan="124.96" skinid="ht_node" target="" tilt="-13.2" title="" url="{node7}"/>
+      <hotspot description="" id="Point03" pan="-131.47" skinid="ht_node" target="" tilt="-7.62" title="" url="{node6}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node22">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:58" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node22" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="126.58" pan="2.71596" projection="4" tilt="-36.0408"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-55.15" skinid="ht_node" target="" tilt="-19.6" title="" url="{node24}"/>
+      <hotspot description="" id="Point02" pan="2.87" skinid="ht_node" target="" tilt="-17.43" title="" url="{node21}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node24">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:56" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node24" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-2.6" skinid="ht_node" target="" tilt="-15.02" title="" url="{node25}"/>
+      <hotspot description="" id="Point02" pan="156.48" skinid="ht_node" target="" tilt="-28.75" title="" url="{node21}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node25">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:57" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node25" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="136.926" pan="-1.136" projection="4" tilt="6.23423"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="172.19" skinid="ht_node" target="-174.2/-4.3/126.6" tilt="-14.1" title="" url="{node24}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node27">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:55" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node27" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="136.926" pan="-6.31231" projection="4" tilt="-3.64246"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="14.68" skinid="ht_node" target="" tilt="-10.4" title="" url="{node12}"/>
+      <hotspot description="" id="Point02" pan="-165.55" skinid="ht_node" target="-71.9/-6.4/136.9" tilt="-9.8" title="" url="{node10}"/>
+      <hotspot description="" id="Point03" pan="-55.09" skinid="ht_node" target="142.8/-21.8/117.0" tilt="-10.79" title="" url="{node13}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node29">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node29/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:13:00" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node29" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="162.18" skinid="ht_node" target="" tilt="3.28" title="" url="{node4}"/>
+      <hotspot description="" id="Point02" pan="87.31" skinid="ht_node" target="" tilt="3.01" title="" url="{node5}"/>
+      <hotspot description="" id="Point03" pan="-38.15" skinid="ht_node" target="" tilt="-9.23" title="" url="{node30}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node30">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node30/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T18:12:57" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node30" source="" tags="CabanadoAbrao-ValeReal" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="136.926" pan="-89.328" projection="4" tilt="-7.42361"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-95.61" skinid="ht_node" target="-30.0/3.2/126.6" tilt="-3.95" title="" url="{node29}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <masternode>
+    <userdata author="" comment="" copyright="" description="" tags="" title="" uuid="{22df467e-6c04-4271-b8bc-cbd3c9ace772}"/>
+    <transition blendcolor="0x000000" blendtime="1" delay="none" enabled="1" softedge="0" type="crossdissolve" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" zoomin="0" zoomout="0" zoomoutpause="1" zoomspeed="2"/>
+    <control contextfullscreen="1" contextprojections="0" contextvr="1" dblclickfullscreen="0" hideabout="0" invertcontrol="1" invertwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" rubberband="0" sensitivity="8" simulatemass="1" speedwheel="1" zoomcentercursor="1"/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+    <hotspots smoothmovement="0">
+      <label background="1" backgroundalpha="1" backgroundcolor="0xffffff" border="1" borderalpha="1" bordercolor="0x000000" borderradius="1" enabled="1" height="20" textalpha="1" textcolor="0x000000" width="180" wordwrap="1"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0"/>
+    </hotspots>
+  </masternode>
+</tour>
