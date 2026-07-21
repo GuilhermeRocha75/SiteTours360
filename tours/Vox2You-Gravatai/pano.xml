@@ -132,11 +132,14 @@
     </input>
     <userdata altitude="0.00" author="" capturedatetime="2026-07-20T22:38:44" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node7" source="" tags="Vox2You-Gravata" title=""/>
     <view fovmode="2" pannorth="0">
-      <start fov="100" pan="0" projection="4" tilt="0"/>
+      <start fov="136.926" pan="-1.17686" projection="4" tilt="-13.8503"/>
       <flyin fov="170" pan="0" projection="9" tilt="-90"/>
       <min fov="1" pan="0" tilt="-90"/>
       <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
     </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-169.69" skinid="ht_node" target="" tilt="-6.39" title="" url="{node10}"/>
+    </hotspots>
     <media/>
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
   </panorama>
@@ -156,6 +159,7 @@
     </view>
     <hotspots>
       <hotspot description="" id="Point01" pan="52.93" skinid="ht_node" target="177.5/-3.4/100.0" tilt="-1.61" title="" url="{node5}"/>
+      <hotspot description="" id="Point02" pan="-43.9" skinid="ht_node" target="" tilt="-0.68" title="" url="{node7}"/>
     </hotspots>
     <media/>
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
@@ -270,7 +274,7 @@
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
   </panorama>
   <masternode>
-    <userdata author="" comment="" copyright="" description="" tags="" title="" uuid="{98a7804e-446f-4e4d-9441-2e31827cb31b}"/>
+    <userdata author="" comment="" copyright="" description="" tags="" title="" uuid="{0a2dcb37-d2cb-44fd-99dd-94e30748d5e5}"/>
     <transition blendcolor="0x000000" blendtime="1" delay="none" enabled="1" softedge="0" type="crossdissolve" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" zoomin="0" zoomout="0" zoomoutpause="1" zoomspeed="2"/>
     <control contextfullscreen="1" contextprojections="0" contextvr="1" dblclickfullscreen="0" hideabout="0" invertcontrol="1" invertwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" rubberband="0" sensitivity="8" simulatemass="1" speedwheel="1" zoomcentercursor="1"/>
     <animationsequences>
