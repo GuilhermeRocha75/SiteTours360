@@ -78,26 +78,35 @@
     }
 
     .hero {
-      background: linear-gradient(rgba(0,0,0,0.68), rgba(0,0,0,0.68)),
-      url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80");
-      background-size: cover;
-      background-position: center;
+      background: #031522;
       color: #fff;
-      padding: 120px 0;
       text-align: center;
     }
 
-    .hero h1 {
-      font-size: 48px;
-      line-height: 1.15;
-      margin-bottom: 20px;
+    .hero-image {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+      object-fit: contain;
+      margin: 0 auto;
     }
 
-    .hero p {
-      font-size: 20px;
-      max-width: 760px;
-      margin: 0 auto 32px;
-      color: #eee;
+    .hero-actions {
+      padding: 26px 5% 30px;
+      border-top: 1px solid rgba(198, 137, 57, 0.55);
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
     }
 
     .btn-group {
@@ -298,10 +307,6 @@
     }
 
     @media (max-width: 900px) {
-      .hero h1 {
-        font-size: 36px;
-      }
-
       nav {
         display: none;
       }
@@ -318,16 +323,8 @@
     }
 
     @media (max-width: 600px) {
-      .hero {
-        padding: 90px 0;
-      }
-
-      .hero h1 {
-        font-size: 31px;
-      }
-
-      .hero p {
-        font-size: 17px;
+      .hero-actions {
+        padding: 20px 5% 24px;
       }
 
       .section-title {
@@ -363,7 +360,7 @@
 
   <header>
     <div class="container header-content">
-      <div class="logo">Duga Rocha <span>360°</span></div>
+      <div class="logo">DR TOURS <span>360</span></div>
 
       <nav>
         <a href="#inicio">Início</a>
@@ -378,14 +375,16 @@
   <main>
 
     <section class="hero" id="inicio">
-      <div class="container">
-        <h1>Transforme seu espaço em uma experiência 360° que conquista clientes antes mesmo da visita.</h1>
-
-        <p>
-          Tours Virtuais 360 para hospedagens, restaurantes, clínicas, imóveis,
-          espaços comerciais e experiências turísticas.
-        </p>
-
+      <h1 class="sr-only">Tours virtuais 360: mostre cada detalhe e encante à primeira visão</h1>
+      <img
+        class="hero-image"
+        src="assests/WhatsApp Image 2026-07-19 at 21.06.53.jpeg"
+        alt="DrTours 360 — Mostre cada detalhe. Encante à primeira visão. Empresas com tour 360 geram duas vezes mais interesse e aceleram a decisão de compra."
+        width="1600"
+        height="900"
+        fetchpriority="high"
+      >
+      <div class="hero-actions">
         <div class="btn-group">
           <a href="#projetos" class="btn">Ver projetos</a>
 
@@ -423,6 +422,27 @@
           Conheça alguns Tours Virtuais 360 desenvolvidos para apresentar espaços de maneira
           interativa, profissional e imersiva.
         </p>
+
+        <div class="project-card">
+          <iframe
+            src="tours/Vox2You-Gravatai/index.html"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            title="Vox2You - Gravataí">
+          </iframe>
+
+          <div class="project-info">
+            <h3>Vox2You - Gravataí</h3>
+            <p>📍 Localização: Gravataí/RS</p>
+            <p>🎙️ Segmento: escola de oratória e comunicação</p>
+            <p>🎯 Objetivo: apresentar a estrutura e os ambientes da unidade de forma imersiva, moderna e profissional.</p>
+            <br>
+            <a href="https://wa.me/5551992413955?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Tour%20360" class="btn" target="_blank">
+              Quero um tour como esse
+            </a>
+          </div>
+        </div>
 
         <div class="project-card">
           <iframe 
