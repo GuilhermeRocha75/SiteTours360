@@ -57,6 +57,7 @@
     </view>
     <hotspots>
       <hotspot description="" id="Point01" pan="177.7" skinid="ht_node" target="-166.2/-4.7/100.0" tilt="2.24" title="" url="{node2}"/>
+      <hotspot description="" id="Point02" pan="1.73" skinid="ht_node" target="" tilt="-1.91" title="" url="{node4}"/>
     </hotspots>
     <media/>
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
@@ -468,7 +469,7 @@
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
   </panorama>
   <masternode>
-    <userdata author="" comment="" copyright="" description="" tags="" title="" uuid="{22df467e-6c04-4271-b8bc-cbd3c9ace772}"/>
+    <userdata author="" comment="" copyright="" description="" tags="" title="" uuid="{28dfc437-7ab3-49fd-87e1-45ba0e58d6bf}"/>
     <transition blendcolor="0x000000" blendtime="1" delay="none" enabled="1" softedge="0" type="crossdissolve" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" zoomin="0" zoomout="0" zoomoutpause="1" zoomspeed="2"/>
     <control contextfullscreen="1" contextprojections="0" contextvr="1" dblclickfullscreen="0" hideabout="0" invertcontrol="1" invertwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" rubberband="0" sensitivity="8" simulatemass="1" speedwheel="1" zoomcentercursor="1"/>
     <animationsequences>
