@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="22530" appversion="8.0.1" hassounds="0" start="node4">
+<tour apprev="22530" appversion="8.0.1" hassounds="0" start="node18">
   <panorama id="node1">
     <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
       <level height="2992" predecode="0" preload="0" width="2992"/>
@@ -41,6 +41,7 @@
       <hotspot description="" id="Point03" pan="79.73" skinid="ht_node" target="" tilt="-5.4" title="" url="{node4}"/>
       <hotspot description="" id="Point04" pan="52.36" skinid="ht_node" target="" tilt="-5.62" title="" url="{node6}"/>
       <hotspot description="" id="Point05" pan="110.33" skinid="ht_node" target="2.2/2.6/126.6" tilt="2.33" title="" url="{node9}"/>
+      <hotspot description="" id="Point06" pan="-41.21" skinid="ht_node" target="" tilt="-7.83" title="" url="{node19}"/>
     </hotspots>
     <media/>
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
@@ -63,6 +64,7 @@
       <hotspot description="" id="Point01" pan="117.85" skinid="ht_node" target="" tilt="-4.51" title="" url="{node2}"/>
       <hotspot description="" id="Point02" pan="45.83" skinid="ht_node" target="" tilt="-4.2" title="" url="{node4}"/>
       <hotspot description="" id="Point03" pan="15.86" skinid="ht_node" target="" tilt="-4.36" title="" url="{node6}"/>
+      <hotspot description="" id="Point04" pan="-162.61" skinid="ht_node" target="" tilt="-7.13" title="" url="{node19}"/>
     </hotspots>
     <media/>
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
@@ -86,6 +88,7 @@
       <hotspot description="" id="Point02" pan="34.84" skinid="ht_node" target="" tilt="-2.54" title="" url="{node3}"/>
       <hotspot description="" id="Point03" pan="-147.47" skinid="ht_node" target="" tilt="-5.07" title="" url="{node5}"/>
       <hotspot description="" id="Point04" pan="117.87" skinid="ht_node" target="" tilt="-1.24" title="" url="{node6}"/>
+      <hotspot description="" id="Point05" pan="-179.38" skinid="ht_node" target="" tilt="-6.79" title="" url="{node18}"/>
     </hotspots>
     <media/>
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
@@ -339,8 +342,70 @@
     <media/>
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
   </panorama>
+  <panorama id="node18">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-28T07:51:11" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node18" source="" tags="Xangril-Paradouro" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="148.674" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-0.27" skinid="ht_node" target="8.3/-1.0/144.5" tilt="0.81" title="" url="{node4}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node19">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-28T07:51:10" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node19" source="" tags="Xangril-Paradouro" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="148.674" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-42.46" skinid="ht_node" target="" tilt="-0.13" title="" url="{node2}"/>
+      <hotspot description="" id="Point02" pan="30.01" skinid="ht_node" target="" tilt="0.0799999" title="" url="{node20}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node20">
+    <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
+      <level height="2992" predecode="0" preload="0" width="2992"/>
+      <level height="1496" predecode="0" preload="0" width="1496"/>
+      <level height="748" predecode="1" preload="1" width="748"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-28T07:51:25" comment="" copyright="" customnodeid="" datetime="" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node20" source="" tags="Xangril-Paradouro" title=""/>
+    <view fovmode="2" pannorth="0">
+      <start fov="148.674" pan="-84.1258" projection="4" tilt="-6.59005"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-73.36" skinid="ht_node" target="" tilt="-2.9" title="" url="{node19}"/>
+      <hotspot description="" id="Point02" pan="8.48" skinid="ht_node" target="" tilt="0.29" title="" url="{node2}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
   <masternode>
-    <userdata author="" comment="" copyright="" description="" tags="" title="" uuid="{20b4c836-72dd-4080-8820-8246c2c45c75}"/>
+    <userdata author="" comment="" copyright="" description="" tags="" title="" uuid="{48abc65a-0db8-4903-9732-992112edfa33}"/>
     <transition blendcolor="0x000000" blendtime="1" delay="none" enabled="1" softedge="0" type="crossdissolve" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" zoomin="0" zoomout="0" zoomoutpause="1" zoomspeed="2"/>
     <control contextfullscreen="1" contextprojections="0" contextvr="1" dblclickfullscreen="0" hideabout="0" invertcontrol="1" invertwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" rubberband="0" sensitivity="8" simulatemass="1" speedwheel="1" zoomcentercursor="1"/>
     <animationsequences>
