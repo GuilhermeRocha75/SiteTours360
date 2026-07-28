@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="22530" appversion="8.0.1" hassounds="0" start="node4">
+<tour apprev="22530" appversion="8.0.1" hassounds="0" start="node31">
   <panorama id="node1">
     <input height="2992" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="2992">
       <level height="2992" predecode="0" preload="0" width="2992"/>
@@ -80,6 +80,7 @@
       <hotspot description="" id="Point01" pan="0.67" skinid="ht_node" target="" tilt="-1.05" title="" url="{node5}"/>
       <hotspot description="" id="Point02" pan="-47.32" skinid="ht_node" target="" tilt="-10.56" title="" url="{node29}"/>
       <hotspot description="" id="Point03" pan="170.53" skinid="ht_node" target="175.8/-4.5/100.0" tilt="-0.02" title="" url="{node3}"/>
+      <hotspot customimage="media/silhouette-quad-drone-flight-vector-600nw-2524606343-removebg-preview.png" customimageheight="50" customimagewidth="75" description="" distance3D="428.627" fov="10" id="Point04" pan="102.86" skinid="ht_node" target="" tilt="52.36" title="default" url="{node31}" use3D="0"/>
     </hotspots>
     <media/>
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
@@ -102,6 +103,7 @@
       <hotspot description="" id="Point01" pan="7.61" skinid="ht_node" target="" tilt="-5.39" title="" url="{node6}"/>
       <hotspot description="" id="Point02" pan="-126.57" skinid="ht_node" target="-175.9/1.0/100.0" tilt="0.32" title="" url="{node3}"/>
       <hotspot description="" id="Point03" pan="104.69" skinid="ht_node" target="-14.6/-4.5/126.6" tilt="-4.59" title="" url="{node19}"/>
+      <hotspot customimage="media/silhouette-quad-drone-flight-vector-600nw-2524606343-removebg-preview.png" customimageheight="50" customimagewidth="75" description="" distance3D="428.627" fov="10" id="Point04" pan="-160.14" skinid="ht_node" target="" tilt="58.76" title="default" url="{node31}" use3D="0"/>
     </hotspots>
     <media/>
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
@@ -468,8 +470,28 @@
     <media/>
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
   </panorama>
+  <panorama id="node31">
+    <input height="3000" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node31/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="3000">
+      <level height="3000" predecode="0" preload="0" width="3000"/>
+      <level height="1500" predecode="0" preload="0" width="1500"/>
+      <level height="750" predecode="1" preload="1" width="750"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-06-18T10:59:56-03:00" comment="" copyright="" customnodeid="" datetime="18/06/2026 10:59" description="" heading="0" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node31" source="" tags="CabanadoAbrao-ValeReal" title="default"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="121.71" pan="0.891983" projection="4" tilt="-43.2886"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-0.63" skinid="ht_node" target="" tilt="-41.41" title="" url="{node4}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
   <masternode>
-    <userdata author="" comment="" copyright="" description="" tags="" title="" uuid="{28dfc437-7ab3-49fd-87e1-45ba0e58d6bf}"/>
+    <userdata author="" comment="" copyright="" description="" tags="" title="" uuid="{e6220a52-0be7-48d5-bd9c-2b503b8ad8fc}"/>
     <transition blendcolor="0x000000" blendtime="1" delay="none" enabled="1" softedge="0" type="crossdissolve" zoomafterinfov="140" zoomafteroutfov="40" zoomfov="40" zoomin="0" zoomout="0" zoomoutpause="1" zoomspeed="2"/>
     <control contextfullscreen="1" contextprojections="0" contextvr="1" dblclickfullscreen="0" hideabout="0" invertcontrol="1" invertwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" lockedwheel="0" rubberband="0" sensitivity="8" simulatemass="1" speedwheel="1" zoomcentercursor="1"/>
     <animationsequences>
