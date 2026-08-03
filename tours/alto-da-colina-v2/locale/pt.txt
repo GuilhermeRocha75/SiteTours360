@@ -1,0 +1,34 @@
+#: locale=pt
+
+## Media
+
+### Audio
+audiores_DD7C713A_C849_5EF4_41A9_8410E69EC7B7.url = media/audio_DF920B88_C847_C194_41A2_865BAA91FDAF_pt.mp3
+
+### Audio Subtitles
+
+### Title
+panorama_CBFAF667_C7B9_429C_41CF_0630F796527D.label = 1
+panorama_CD6DD4D7_C7BB_47BC_41DC_4607D17FC205.label = 10
+panorama_CD6D8F84_C7BB_419C_41B1_5051274862A0.label = 11
+panorama_CD6DAA31_C7BB_42F4_41E4_8CE086068C2C.label = 12
+panorama_CD6AA586_C7BB_C19C_41A4_FF9D06DB5CD8.label = 13
+panorama_CD6D6075_C7BB_DF7C_41D3_86B6A0ADCA53.label = 14
+panorama_CD6ABB41_C7BB_C294_41D6_A34A447A8FF1.label = 15
+panorama_CD6512CA_C7BA_C394_41E1_67E5091E0CBB.label = 2
+panorama_CD6D3D3A_C7BA_C6F4_41E0_51BC6037CA16.label = 3
+panorama_CD6D27A5_C7BA_C19C_41D3_3C6EEFD7850B.label = 4
+panorama_CD6D61CD_C7BA_C1AC_4196_C2CCDFB14218.label = 5
+panorama_CD6D0BF1_C7BA_C174_41E7_90F7199323F3.label = 6
+panorama_CD6DF5C4_C7BB_419C_41E3_3DD6C497F843.label = 7
+panorama_CD6DC013_C7BB_5EB4_41E2_D0AE8B63B8F7.label = 8
+panorama_CD6D8A69_C7BB_4294_419F_DF451F55AC89.label = 9
+panorama_CD6A8708_C7BB_C294_41D5_8A9816797E32.label = WhatsApp Image 2026-07-01 at 15.52.47
+
+## Tour
+
+### Description
+tour.description = Conheça mais sobre nossos tours!
+
+### Title
+tour.name = Alto-da-Colina
