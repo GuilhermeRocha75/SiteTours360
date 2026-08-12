@@ -1,5 +1,13 @@
 #: locale=pt
 
+## Action
+
+### URL
+LinkBehaviour_E6A515BC_F740_9B7C_416D_AF228F323526.source = https://api.whatsapp.com/send/?phone=5551996621458
+LinkBehaviour_E7F1127C_F741_79FC_41C5_4E0AA4036853.source = https://api.whatsapp.com/send/?phone=5551996621458
+LinkBehaviour_F8C8F85E_F740_E93C_41E9_D2C2B965D6EC.source = https://www.instagram.com/lypedepyl.gravatai?igsh=Mmc2bndpeXJ0bWdo
+LinkBehaviour_E6A5E5BC_F740_9B7C_41EC_A6D9826C476F.source = https://www.instagram.com/lypedepyl.gravatai?igsh=Mmc2bndpeXJ0bWdo
+
 ## Media
 
 ### Audio
@@ -30,7 +38,7 @@ Button_EB01B617_F16C_6186_41E8_80CB9A6EA811_mobile.label = SIM
 
 ### Image
 Image_E437408E_F16F_E289_41D5_B3510388DA1B.url = skin/Image_E437408E_F16F_E289_41D5_B3510388DA1B_pt.png
-Image_E53111AE_F177_A289_41E7_28E66CA2510D.url = skin/Image_E53111AE_F177_A289_41E7_28E66CA2510D_pt.png
+Image_E6288F2B_F741_6704_41CA_BF6D0FEBA48D.url = skin/Image_E6288F2B_F741_6704_41CA_BF6D0FEBA48D_pt.png
 
 ### Label
 Label_E8FC6A91_F153_A69B_419A_11E136FA8C4C.text = Ativar Música?
