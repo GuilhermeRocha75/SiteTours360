@@ -1,5 +1,10 @@
 #: locale=pt
 
+## Action
+
+### URL
+LinkBehaviour_ED194B47_FC34_AB79_41E8_E47C0035AEA1.source = https://api.whatsapp.com/send/?phone=5551989901417
+
 ## Media
 
 ### Audio
@@ -37,6 +42,7 @@ Image_EE3692D1_F16C_A69B_41D0_E6CB31417B81.url = skin/Image_EE3692D1_F16C_A69B_4
 ### Label
 Label_EE3D54E3_F153_E2BE_41AB_2E2CA809C062.text = Ativar Música?
 Label_EE3D54E3_F153_E2BE_41AB_2E2CA809C062_mobile.text = Ativar Música?
+Label_ECECBD4C_FC35_AF0E_41C1_00A895C2C365.text = Entre em contato:
 
 ## Tour
 
