@@ -1,5 +1,11 @@
 #: locale=pt
 
+## Action
+
+### URL
+LinkBehaviour_089E3DA4_1C18_A406_41BB_85681EB85B8E.source = https://api.whatsapp.com/send?phone=5551998430934
+LinkBehaviour_0D097A33_1C08_AC01_41AB_EF84590C13F2.source = https://api.whatsapp.com/send?phone=5551998430934
+
 ## Media
 
 ### Audio
@@ -68,8 +74,10 @@ Image_016A7901_17FA_19D2_418A_6CCE9CCB9A66.url = skin/Image_016A7901_17FA_19D2_4
 Image_02017AD3_178E_1876_4192_B8D074F79E1F.url = skin/Image_02017AD3_178E_1876_4192_B8D074F79E1F_pt.png
 
 ### Label
-Label_00B3D9FE_17FA_1831_41A9_25D6632BA9FC.text = Ativar Música?
 Label_00B3D9FE_17FA_1831_41A9_25D6632BA9FC_mobile.text = Ativar Música?
+Label_00B3D9FE_17FA_1831_41A9_25D6632BA9FC.text = Ativar Música?
+Label_0EB701C6_1C0B_FC03_41B7_CF316E6457A6.text = Continuar atendimento:
+Label_0EB701C6_1C0B_FC03_41B7_CF316E6457A6_mobile.text = Continuar atendimento:
 
 ## Tour
 
