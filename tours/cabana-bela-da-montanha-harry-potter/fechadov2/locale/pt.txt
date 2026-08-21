@@ -76,7 +76,6 @@ Image_02017AD3_178E_1876_4192_B8D074F79E1F.url = skin/Image_02017AD3_178E_1876_4
 ### Label
 Label_00B3D9FE_17FA_1831_41A9_25D6632BA9FC.text = Ativar Música?
 Label_00B3D9FE_17FA_1831_41A9_25D6632BA9FC_mobile.text = Ativar Música?
-Label_0EB701C6_1C0B_FC03_41B7_CF316E6457A6.text = Continuar atendimento:
 
 ## Tour
 
